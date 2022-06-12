@@ -6,13 +6,13 @@ from django.conf.urls.static import static
 
 
 urlpatterns=[
-   url(r'^$',views.login_view, name='login'),
+  url(r'^$',views.login_view, name='login'),
   url(r'^register/',views.register_view, name='register'),
-  url(r'^index/',views.index,name = 'index'),
-  url(r'^search/', views.search_results, name='search_results'),
-  url(r'^new/project$', views.new_project, name='new-project'),
-  url(r'^user/(?P<username>\w+)', views.profile, name='profile'),
-  url(r'^accounts/edit/', views.edit_profile, name='edit_profile'),
+  # url(r'^index/',views.index,name = 'index'),
+  # url(r'^search/', views.search_results, name='search_results'),
+  # url(r'^new/project$', views.new_project, name='new-project'),
+  # url(r'^user/(?P<username>\w+)', views.profile, name='profile'),
+  # url(r'^accounts/edit/', views.edit_profile, name='edit_profile'),
 ]
 
 if settings.DEBUG:
