@@ -81,4 +81,48 @@ input {
     border-radius: 20px;
     padding: 0 20px;
 }
+.fa {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+  }
+  
+  .navbar-form:hover {
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .navbar-form:hover input {
+    display: block;
+  }
+  
+  .navbar-form:hover .fa {
+    background: #07051a;
+    color: white;
+  }
+  
+  
+  .landing {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-position: bottom;
+    height: 70%;
+  
+  }
+  
+  .cover.container-fluid {
+    background: linear-gradient(144deg, rgba(10, 32, 41, 1) 0%, rgba(25, 0, 78, 1) 100%);
+  
+    height: inherit;
+  }
   
