@@ -7,3 +7,12 @@ body {
     left: 50%;
     transform: translatex(-50%);
   }
+  .navbar-brand {
+    position: relative;
+    width: 350px;
+  }
+  
+  .srch-form {
+    position: relative;
+  
+  }
