@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from .forms import UserRegisterForm,UserLoginForm
 from .models import *
 from rateapp import views,forms
+from django.http import JsonResponse
 
 from django.contrib.auth import login, views, forms
 from django.contrib.auth.models import User
