@@ -14,7 +14,7 @@ A web application to post websites and other web projects as well as review post
 * Users can view their profiles and edit their profile pictures and bio.
 * Users can review and post a review on other users' projects.
 
-# Specifications
+
 
 ## BDD
 | Behavior            | Input                         | Output                        |
@@ -29,7 +29,7 @@ A web application to post websites and other web projects as well as review post
 ## Setup/Installation Requirements
 Here is a run through of how to set up the application:
 * Step 1 : Clone this repository using the git clone link:
-  * **`git clone `**
+  * **`git clone `* https://github.com/LoiseMulwa/projects-voting*
 * Step 2 : Navigate to the directory:
   * **`cd project-votes`**
 * Step 3 : Open the directory created with your favorite IDE. If Atom type **`atom .`** if VSCode type **`code .`** . This will lauch the editor with the project setup,
@@ -37,7 +37,7 @@ Here is a run through of how to set up the application:
 
 ## Known Bugs
 * None currently.
-## Getting started
+
 ### Prerequisites
 * python3.8
 * virtual environment
@@ -46,7 +46,7 @@ Here is a run through of how to set up the application:
 ### Cloning
 * In your terminal:
 
-       $ git clone 
+       $ git clone https://github.com/LoiseMulwa/projects-voting
        $ cd project-votes
 
 ## Running the Application
